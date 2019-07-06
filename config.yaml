@@ -1,0 +1,20 @@
+influxdb:
+  host: 10.200.0.100
+  username:
+  password:
+  database: network
+  ssl: False
+  verify_ssl: False
+
+fping:
+  fping: /usr/sbin/fping
+  report_interval: 100
+  period: 500
+  interval: 100
+  size: 1000
+  dest_hosts:
+    - 144.202.128.10
+    - 207.255.242.1
+    - 8.8.4.4
+    - 10.200.0.1
+    - 192.168.100.1
